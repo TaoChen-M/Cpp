@@ -188,7 +188,7 @@ for(auto it:array){
 
 unique算法重排输入序列，并返回一个指向不重复值范围末尾的迭代器。
 
-![unique](img\unique.png)
+![unique](img/unique.png)
 
 ```c++
 auto end_unique=unique(words.begin(),words.end());
@@ -232,7 +232,7 @@ copy(lst1.cbegin(),lst2.cend(),inserter(lst3,lst2.begin()));//lst3:1 2 3 4
 
 除了forward_list之外其他所有的容器都支持反向迭代器
 
-![](img\反向迭代器.png)
+![反向迭代器](img/反向迭代器.png)
 
 假定一个名为line的string，其中保存着逗号分开的单词列表，如果希望打印line的第一个单词，则可以使用find函数来解决。
 
@@ -266,7 +266,7 @@ cout<<string(line.crbegin(),rcomma);
 cout<<string(rcomma.base(),line.cend());
 ```
 
-![](\img\反向迭代器和正向迭代器关系.png)
+![关系](img/反向迭代器和正向迭代器关系.png)
 
 ## 算法形参模式
 
