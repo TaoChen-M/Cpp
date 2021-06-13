@@ -18,17 +18,17 @@ struct __list_node{
 }
 ```
 
-![list_node](./img/list_node.png)
+![list_node](/img/list_node.png)
 
 list是一个双向链表，迭代器必须具备前移和后移的能力，迭代器在内部的设置采用了运算符重载的方法，参考了整数可以进行的操作。
 
-![list_iterator](.\img\list_iterator.png)
+![list_iterator](/img/list_iterator.png)
 
 注意：对`node`节点解引用，得到是整个node节点的结构体，包括：`prev、next、data`
 
 为了符合STL规范“前闭后开”的特点，list在内部实现的环状链表的尾端添加了一个空白节点
 
-![list](.\img\list.png)
+![list](/img/list.png)
 
 这样一来就能够轻易实现以下几个函数
 
