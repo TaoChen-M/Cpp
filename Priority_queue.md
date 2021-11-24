@@ -4,7 +4,7 @@
 
 `max-heap`可以满足`priority-queue`所需要的"依照权值高低自动递减排序"。
 
-![priority_q](C:\Users\user\Desktop\研究生\学习\C&C++\STL标准库\img\priority_q.png)
+![priority_q](img/priority_q.png)
 
 `queue`以底部容器完成所有的工作，具有这种「修改某物接口，形成另一种风貌」 之性质者，称为` adapter` （配接器），
 
@@ -27,7 +27,7 @@ template <class T, class Container = vector<T>,
 
 #### 样例程序
 
-![](C:\Users\user\Desktop\研究生\学习\C&C++\STL标准库\img\s_code.png)
+![](img/s_code.png)
 
 对于自定义类型需要重载`<`运算符
 
